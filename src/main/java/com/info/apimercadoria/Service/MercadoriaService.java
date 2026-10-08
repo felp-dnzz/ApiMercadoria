@@ -25,7 +25,7 @@ public class MercadoriaService {
         return mercadoriaRepository.save(mercadoria);
     }
 
-    public void delete(int id) {
-        mercadoriaRepository.deleteById(id);
+    public void delete(String codbarras) {
+        mercadoriaRepository.deleteById(codbarras);
     }
 }
